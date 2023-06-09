@@ -1,0 +1,40 @@
+@import url("../fonts/fonts.css");
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+}
+.logo {
+  height: 64px;
+  width: auto;
+  padding: 10px;
+  margin-left: 20px;
+}
+.links {
+  width: 30%;
+  display: flex;
+  gap: 30px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.activeStyles {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.classicStyles {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.cartIcon {
+  font-size: 2.5rem;
+  margin-top: 22px;
+}
