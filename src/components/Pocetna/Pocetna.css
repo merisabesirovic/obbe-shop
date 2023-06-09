@@ -1,0 +1,17 @@
+@import url("../fonts/fonts.css");
+.pocetna-container {
+  background-image: url("../../assets/images/pexels-sneep-crew-8188908.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pocetna-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #ffffff;
+  margin: 40px;
+}
